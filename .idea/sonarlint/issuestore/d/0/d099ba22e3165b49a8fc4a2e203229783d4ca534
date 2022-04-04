@@ -1,39 +1,0 @@
-
-J
-java:S3740"/Provide the parametrized type for this generic.(ç¨ÇÙÿÿÿÿÿ
-J
-java:S3740"/Provide the parametrized type for this generic.(ç¨ÇÙÿÿÿÿÿ
-J
-java:S3740"/Provide the parametrized type for this generic.(ç¨ÇÙÿÿÿÿÿ
-J
-java:S3740"/Provide the parametrized type for this generic.(ç¨ÇÙÿÿÿÿÿ
-Y
-java:S1854">Remove this useless assignment to local variable "requestUrl".(ÚÕèûúÿÿÿÿ
-Y
-java:S1854">Remove this useless assignment to local variable "requestUrl".(ÚÕèûúÿÿÿÿ
-J
-java:S1481"/Remove this unused "requestUrl" local variable.(ÚÕèûúÿÿÿÿ
-J
-java:S1481"/Remove this unused "requestUrl" local variable.(ÚÕèûúÿÿÿÿ
-A
-java:S1168 "+Return an empty collection instead of null.(¥¹ï
-A
-java:S1168 "+Return an empty collection instead of null.(¥¹ï
-A
-java:S1168+"+Return an empty collection instead of null.(¥¹ï
-`
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
-A
-java:S1168+"+Return an empty collection instead of null.(¥¹ï
-Y
-java:S1155">Use isEmpty() to check whether the collection is empty or not.(¿Žä¡ûÿÿÿÿ
-`
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
-Y
-java:S1155">Use isEmpty() to check whether the collection is empty or not.(¿Žä¡ûÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ûŠ–â
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ûŠ–â
-S
-java:S2589"8Remove this expression which always evaluates to "false"(¿Žä¡ûÿÿÿÿ
-S
-java:S2589"8Remove this expression which always evaluates to "false"(¿Žä¡ûÿÿÿÿ

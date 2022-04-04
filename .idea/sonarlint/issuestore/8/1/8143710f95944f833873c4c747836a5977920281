@@ -1,33 +1,0 @@
-
-g	java:S116"SRename this field "enum_map" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ­¢V
-s	java:S116	"YRename this field "case_sensitive" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Ñè²ùÿÿÿÿ
-j	java:S116
-"URename this field "enum_value" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëæê”
-z
-java:S1149A"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ñ€ö‚øÿÿÿÿ
-6
-java:S2129" Remove this "String" constructor(ã¤áë
-<
-java:S2129"!Remove this "Integer" constructor(¢Ñ¨ßşÿÿÿÿ
-<
-java:S2129"!Remove this "Integer" constructor(¢Ñ¨ßşÿÿÿÿ
-6
-java:S2129$" Remove this "String" constructor(ã¤áë
-;
-java:S21296" Remove this "String" constructor(¹——Èüÿÿÿÿ
-j	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ƒ›8‰¾Âğó/
-n
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ­¢V
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÓ¬ıÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ã™ûÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œç™Ìûÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œç™Ìûÿÿÿÿ
-f	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ƒ›
-f	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ƒ›
-i
-java:S1104"TMake enum_map a static final constant or non-public and provide accessors if needed.(Ÿ­¢V
-u
-java:S1104	"ZMake case_sensitive a static final constant or non-public and provide accessors if needed.(•Ñè²ùÿÿÿÿ
-l
-java:S1104
-"VMake enum_value a static final constant or non-public and provide accessors if needed.(ëæê”

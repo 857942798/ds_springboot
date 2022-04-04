@@ -1,45 +1,0 @@
-
-t
-java:S2142!"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‚¿Áü
-R
-java:S1128"5Remove this unused import 'io.netty.buffer.Unpooled'.(ÏÁ¤ê8Ú¬Õ–õ/
-`
-java:S1128	"CRemove this unused import 'io.netty.channel.socket.DatagramPacket'.(›è¨Í8Ú¬Õ–õ/
-X
-java:S1128"6Remove this unused import 'io.netty.util.CharsetUtil'.(óè ìþÿÿÿÿ8Ú¬Õ–õ/
-g
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8Ú¬Õ–õ/
-t
-java:S2142!"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‚¿Áü
-K
-java:S1128"5Remove this unused import 'io.netty.buffer.Unpooled'.(ÏÁ¤ê
-Y
-java:S1128	"CRemove this unused import 'io.netty.channel.socket.DatagramPacket'.(›è¨Í
-Q
-java:S1128"6Remove this unused import 'io.netty.util.CharsetUtil'.(óè ìþÿÿÿÿ
-`
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
-t
-java:S2142!"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‚¿Áü
-K
-java:S1128"5Remove this unused import 'io.netty.buffer.Unpooled'.(ÏÁ¤ê
-Y
-java:S1128	"CRemove this unused import 'io.netty.channel.socket.DatagramPacket'.(›è¨Í
-Q
-java:S1128"6Remove this unused import 'io.netty.util.CharsetUtil'.(óè ìþÿÿÿÿ
-`
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
-t
-java:S2142!"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‚¿Áü
-K
-java:S1128"5Remove this unused import 'io.netty.buffer.Unpooled'.(ÏÁ¤ê
-Y
-java:S1128	"CRemove this unused import 'io.netty.channel.socket.DatagramPacket'.(›è¨Í
-Q
-java:S1128"6Remove this unused import 'io.netty.util.CharsetUtil'.(óè ìþÿÿÿÿ
-`
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ

@@ -1,17 +1,0 @@
-
-V
-java:S3416"4Update this logger to use "FileServerHandler.class".(Ö°ïşøÿÿÿÿ8–ãúÛğ/
-o
-java:S3776&"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(²¨üã8•ÿ¯Ûğ/
-8
-java:S36268"Remove this redundant jump.(ûÁİ…8—ÿ¯Ûğ/
-E	java:S108A")Either remove or fill this block of code.(”ı¾8›ÿ¯Ûğ/
-7
-java:S3457Y"Not enough arguments.(¦ Åÿıÿÿÿÿ8¿ãúÛğ/
-^
-java:S3457m"AFormat specifiers should be used instead of string concatenation.(âÌì„8ÊãúÛğ/
-c
-java:S3457o"AFormat specifiers should be used instead of string concatenation.(š›¹½ıÿÿÿÿ8ËãúÛğ/
-Y	java:S125Ÿ"<This block of commented-out lines of code should be removed.(æê‹é8¯ÿ¯Ûğ/
-j
-java:S2095O"NUse try-with-resources or close this "RandomAccessFile" in a "finally" clause.(ø»‘.8ÜµÅÛğ/

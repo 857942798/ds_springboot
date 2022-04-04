@@ -1,19 +1,0 @@
-
-Q	java:S125I"<This block of commented-out lines of code should be removed.(íµ®‰
-Q	java:S125I"<This block of commented-out lines of code should be removed.(íµ®‰
-`
-java:S1128
-"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ
-g
-java:S1128
-"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8»ÃÓ·İ/
-i
-java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë
-p
-java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8»ÃÓ·İ/
-n
-java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íş¡şÿÿÿÿ
-u
-java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íş¡şÿÿÿÿ8»ÃÓ·İ/
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€œ¾âúÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€œ¾âúÿÿÿÿ

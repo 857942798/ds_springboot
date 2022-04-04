@@ -1,6 +1,0 @@
-
-]	java:S125("<This block of commented-out lines of code should be removed.(ºŞà§üÿÿÿÿ8œÑ¤™ö/
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ8óª¤™ö/
-H
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8Ñ¤™ö/
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÆ²‰
