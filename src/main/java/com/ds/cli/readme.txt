@@ -1,0 +1,4 @@
+命令行CLI的java实现，兼容commonlib的CLI模块通信协议
+
+目录client包含CLI客户端的实现及示例
+目录server包含CLI服务端的实现及示例

@@ -1,0 +1,14 @@
+
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18ğæÍèß.
+°
+java:S1130"’Remove the declaration of thrown exception 'org.springframework.security.core.userdetails.UsernameNotFoundException' which is a runtime exception.(É­½Ô8Ô†ÖÌß.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıØ±üÿÿÿÿ8¯Š—ŞÚ.
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ıØ±üÿÿÿÿ8Ô†ÖÌß.
+N
+java:S1128
+",Remove this unused import 'java.util.Deque'.(³Ã¯¥şÿÿÿÿ8ğæÍèß.
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(ÿş«Ä8Ô†ÖÌß.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒâúî8®ºáâÚ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¾÷•çÿÿÿÿÿ8Ô†ÖÌß.
+]	java:S125$"<This block of commented-out lines of code should be removed.(Àğ£ğÿÿÿÿÿ8Ô†ÖÌß.

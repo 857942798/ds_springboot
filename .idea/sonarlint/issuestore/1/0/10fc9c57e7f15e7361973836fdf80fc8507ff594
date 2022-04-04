@@ -1,0 +1,16 @@
+
+K
+java:S3740"/Provide the parametrized type for this generic.(²¡‡]8óÈ¹‘ö/
+{
+java:S2142*"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8„É¹‘ö/
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ÖÙ‰8‡É¹‘ö/
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(›»„Óüÿÿÿÿ8ˆÉ¹‘ö/
+{
+java:S2142F"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8ŠÉ¹‘ö/
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(Óš‘ï8‹É¹‘ö/
+J
+java:S3011ˆ",This accessibility update should be removed.(Ó«§¯8ÀûÀ‘ö/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(óç•Ú8ŸÉ¹‘ö/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ÁÉó
+e
+java:S3824P"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(ªşÖ8éÍ¿‘ö/

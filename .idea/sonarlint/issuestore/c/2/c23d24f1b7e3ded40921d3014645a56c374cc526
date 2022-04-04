@@ -1,0 +1,11 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(á‰„Šþÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(¥¸Œ¬øÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'javax.servlet.ServletException'.(Š‰™Œ
+K
+java:S1128
+"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡²óÔ

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <!--当前路径是/html/**  ,因此需要返回一级 ，所以用  ../js/  -->
+    <script type="text/javascript" src="/ds_local/tl/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/ds_local/tl/js/base64.js"></script>
+</head>
+<body>
+你好 ，世界 ，2333
+<!--<p>点击 去home.html页面</p>-->
+<hr>
+<div>
+    <label>
+        账户：
+        <input id="name" type="text">
+    </label>
+    <label>
+        密码：
+        <input id="psw" type="text">
+    </label>
+    <div class="form-group">
+        <label>
+            <input id="remember"
+                   name="remember"
+                   type="checkbox"/> 记住我
+        </label>
+    </div>
+</div>
+<button onclick="dosome(1)">登录</button>
+<hr>
+<hr>
+<button onclick="dosome(3)">登出</button>
+<hr>
+<hr>
+<button onclick="dosome(4)">获取认证信息</button>
+<hr>
+<label>
+    发送的内容：
+    <input id="text" type="text">
+</label>
+<button onclick="dosome(2)">点我，发送信息</button>
+<hr>
+返回的结果：<span id="res"></span>
+<!--<link href="/js/jquery-1.11.1.min.js" rel="stylesheet"/>-->
+
+
+<script>
+    function dosome(type) {
+
+        let name = "";
+        let psw = "";
+        let remember = null;
+
+        let url = "";
+
+        if (type == 1) {
+            name =  ($("#name").val()).trim();
+            psw =  ($("#psw").val()).trim();
+            remember = $('#remember').is(':checked');
+            console.log("remember=="+remember);
+            //登录
+            url = "http://localhost:8080/ds_local/login";
+        } else if (type == 2) {
+            let text = $("#text").val();
+            if (text.trim() == "") {
+                alert("不能为空");
+                return;
+            }
+            name =  ($("#name").val()).trim();
+            psw =  ($("#psw").val()).trim();
+            url = "http://localhost:8080/ds_local/getid/" + text;
+        } else if (type == 3) {
+            //登出
+            url = "http://localhost:8080/ds_local/logout";
+        }else {
+            url = "http://localhost:8080/ds_local/info"
+        }
+
+
+        //URL是URI的子集，所有的URL都是URI，但不是每个URI都是URL，还有可能是URN。
+
+        $.ajax({
+            async: true,
+            type: 'post',
+            data: {"username": name, "password": psw,"remember":remember},
+            //这里类型是json，跨域的后端需要是map类型、po实体类等 json类型 才能接收数据
+            dataType: "json",
+            xhrFields: {withCredentials:true},	//前端适配：允许session跨域
+            crossDomain: true,
+            url: url,
+            success: function (data) {
+                console.log(data);
+                //请求成功回调函数
+                if (data != null) {
+                    // alert("有数据返回")
+                    $("#res").html(JSON.stringify(data))
+                } else {
+                    alert("系统异常")
+                }
+            },
+            error: function (xhr, type, errorThrown) {
+                //异常处理；
+                console.log("异常处理")
+                console.log(JSON.stringify(xhr));
+                // 当session并发上线被踢下线时,xhr会返回信息
+                //{"readyState":4,"responseText":"This session has been expired
+                // (possibly due to multiple concurrent logins being attempted
+                // as the same user).","status":200,"statusText":"parsererror"}
+                if (xhr.readyState == 4 && xhr.status == 200){
+                    $("#res").html("被强制下线，已在另一台设备登录")
+                }
+
+                console.log(type);
+                console.log(errorThrown);
+            }
+        });
+    }
+
+</script>
+</body>
+</html>

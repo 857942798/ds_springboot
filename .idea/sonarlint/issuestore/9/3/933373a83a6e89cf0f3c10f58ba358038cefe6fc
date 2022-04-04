@@ -1,0 +1,15 @@
+
+D
+java:S1172".Remove this unused method parameter "request".(Ï¤‹
+N	java:S106"9Replace this use of System.out or System.err by a logger.(İáÃƒ
+I
+java:S1172".Remove this unused method parameter "request".(ğä×óúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¿µÌÖúÿÿÿÿ
+T
+java:S1128"9Remove this unused import 'org.springframework.ui.Model'.(ê†ıÿÿÿÿ
+Q
+java:S1128";Remove this unused import 'javax.servlet.ServletException'.(Š‰™Œ
+K
+java:S1128
+"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡²óÔ

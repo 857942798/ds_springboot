@@ -1,0 +1,59 @@
+
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸­ìÃúÿÿÿÿ
+t	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€ûşõøÿÿÿÿ
+t	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(üìİÆşÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼Èšûÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù¾Æ¬ÿÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Å«Š¶üÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿÌ½…
+h	java:S116"SRename this field "arg_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾§¿ì
+m	java:S116"SRename this field "arg_flag" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ÉÁøÿÿÿÿ
+m	java:S116"SRename this field "arg_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áŠÍÛıÿÿÿÿ
+h	java:S116"SRename this field "arg_desc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ÌÊš
+n	java:S116"TRename this field "arg_extra" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‹áùÿÿÿÿ
+r	java:S116"XRename this field "validate_func" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ ò¯úÿÿÿÿ
+o	java:S116"ZRename this field "validate_param1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ…¦÷
+o	java:S116"ZRename this field "validate_param2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¬Ûä
+h
+java:S3008"RRename this field "aid_seq" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×·é
+h
+java:S3008"RRename this field "aid_map" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áù´
+3
+java:S2386"Make this member "protected".(Áù´
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÈı¢
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¼–¿
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªæ¯ùÿÿÿÿ
+h	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä‰¯£ùÿÿÿÿ
+h	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å­¯Éşÿÿÿÿ
+W
+java:S11269"AReplace this if-then-else statement by a single return statement.(åüÇ’
+h	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ºˆıÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Áù´
+e
+java:S1104"OMake aid a static final constant or non-public and provide accessors if needed.(ÿı´Ÿ
+j
+java:S1104"TMake arg_type a static final constant or non-public and provide accessors if needed.(¾§¿ì
+o
+java:S1104"TMake arg_flag a static final constant or non-public and provide accessors if needed.(™ÉÁøÿÿÿÿ
+o
+java:S1104"TMake arg_name a static final constant or non-public and provide accessors if needed.(áŠÍÛıÿÿÿÿ
+j
+java:S1104"TMake arg_desc a static final constant or non-public and provide accessors if needed.(­ÌÊš
+p
+java:S1104"UMake arg_extra a static final constant or non-public and provide accessors if needed.(ò‹áùÿÿÿÿ
+t
+java:S1104"YMake validate_func a static final constant or non-public and provide accessors if needed.(€ ò¯úÿÿÿÿ
+q
+java:S1104"[Make validate_param1 a static final constant or non-public and provide accessors if needed.(œ…¦÷
+q
+java:S1104"[Make validate_param2 a static final constant or non-public and provide accessors if needed.(œ¬Ûä
+i
+java:S1104"SMake aid_seq a static final constant or non-public and provide accessors if needed.(×·é
+i
+java:S1104"SMake aid_map a static final constant or non-public and provide accessors if needed.(Áù´
+C
+java:S1444"-Make this "public static aid_seq" field final(×·é
+C
+java:S1444"-Make this "public static aid_map" field final(Áù´

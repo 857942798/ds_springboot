@@ -1,0 +1,195 @@
+
+p	java:S116"VRename this field "server_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶­å™úÿÿÿÿ
+p	java:S116"VRename this field "server_port" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ú€–øÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àû†Öşÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ÿ¡µÿÿÿÿÿ
+c	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»‰¿³
+V	java:S125/"<This block of commented-out lines of code should be removed.(ËæĞôüÿÿÿÿ
+h	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ïıîúÿÿÿÿ
+6
+java:S2129G" Remove this "String" constructor(›å£ù
+6
+java:S2129K" Remove this "String" constructor(Çü¸‘
+;
+java:S2129P" Remove this "String" constructor(¸‘Ìøøÿÿÿÿ
+h	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ„‘æÿÿÿÿÿ
+;
+java:S2129X" Remove this "String" constructor(÷Îï‚úÿÿÿÿ
+O
+java:S4719]"9Replace charset name argument with StandardCharsets.UTF_8(ÄŒ›ù
+;
+java:S2129l" Remove this "String" constructor(“ğá‡üÿÿÿÿ
+d	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁªÚ
+7
+java:S2129²" Remove this "String" constructor(¼‡ïÈ
+7
+java:S2129¶" Remove this "String" constructor(¹³İ€
+i	java:S100Ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¨½îûÿÿÿÿ
+U
+java:S4719È"9Replace charset name argument with StandardCharsets.UTF_8(ÜÛ¼Ñıÿÿÿÿ
+?
+java:S1125Ğ"(Remove the unnecessary boolean literals.( Ğëš
+D
+java:S1125Ñ"(Remove the unnecessary boolean literals.(Şõ¦Ëıÿÿÿÿ
+<
+java:S2129Ü" Remove this "String" constructor(†­ã‚üÿÿÿÿ
+7
+java:S2129ë" Remove this "String" constructor(—Åç‰
+i	java:S100ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‹‰Ïúÿÿÿÿ
+P
+java:S4719ö"9Replace charset name argument with StandardCharsets.UTF_8(šÃÇ·
+<
+java:S2129ƒ" Remove this "String" constructor(ÈÉè›øÿÿÿÿ
+<
+java:S2129Œ" Remove this "String" constructor(±‹Ù–úÿÿÿÿ
+<
+java:S2129‘" Remove this "String" constructor(›Şñ¹ÿÿÿÿÿ
+d	java:S100–"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íâ­¤
+7
+java:S2129š" Remove this "String" constructor(ë‡€ï
+U
+java:S4719œ"9Replace charset name argument with StandardCharsets.UTF_8(ÆÑÊİıÿÿÿÿ
+?
+java:S1125¢"(Remove the unnecessary boolean literals.( Ğëš
+D
+java:S1125£"(Remove the unnecessary boolean literals.(Şõ¦Ëıÿÿÿÿ
+E
+java:S1481£")Remove this unused "cont" local variable.(Şõ¦Ëıÿÿÿÿ
+<
+java:S2129§" Remove this "String" constructor(†­ã‚üÿÿÿÿ
+7
+java:S2129Â" Remove this "String" constructor(¶ŒÌ¯
+F
+java:S2093±"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+<
+java:S2129Ñ" Remove this "String" constructor(Òù“Õúÿÿÿÿ
+i	java:S100Ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç·ÎÒıÿÿÿÿ
+\
+java:S1192]"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(ÄŒ›ù
+Q
+java:S1141Ö"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+Q
+java:S1141±"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+k	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¸¨âüÿÿÿÿ
+k	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¸¨âüÿÿÿÿ
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰’™ï
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰’™ï
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰’™ï
+g	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁªÚ
+g	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁªÚ
+l	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¨½îûÿÿÿÿ
+l	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¨½îûÿÿÿÿ
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‹‰Ïúÿÿÿÿ
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‹‰Ïúÿÿÿÿ
+g	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íâ­¤
+g	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íâ­¤
+r
+java:S1104"WMake server_name a static final constant or non-public and provide accessors if needed.(¶­å™úÿÿÿÿ
+r
+java:S1104"WMake server_port a static final constant or non-public and provide accessors if needed.(£Ú€–øÿÿÿÿ
+m
+java:S1104"RMake socket a static final constant or non-public and provide accessors if needed.(È™…½úÿÿÿÿ
+h
+java:S1104"RMake secure a static final constant or non-public and provide accessors if needed.(·öÎÇ
+d
+java:S2095¶"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÏŸ‰â
+[
+java:S2095³"DUse try-with-resources or close this "Socket" in a "finally" clause.(’Ú®İ
+p	java:S116"VRename this field "server_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶­å™úÿÿÿÿ
+p	java:S116"VRename this field "server_port" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ú€–øÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àû†Öşÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ÿ¡µÿÿÿÿÿ
+c	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»‰¿³
+V	java:S125/"<This block of commented-out lines of code should be removed.(ËæĞôüÿÿÿÿ
+h	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ïıîúÿÿÿÿ
+6
+java:S2129G" Remove this "String" constructor(›å£ù
+6
+java:S2129K" Remove this "String" constructor(Çü¸‘
+;
+java:S2129P" Remove this "String" constructor(¸‘Ìøøÿÿÿÿ
+h	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ„‘æÿÿÿÿÿ
+;
+java:S2129X" Remove this "String" constructor(÷Îï‚úÿÿÿÿ
+O
+java:S4719]"9Replace charset name argument with StandardCharsets.UTF_8(ÄŒ›ù
+;
+java:S2129l" Remove this "String" constructor(“ğá‡üÿÿÿÿ
+d	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁªÚ
+7
+java:S2129²" Remove this "String" constructor(¼‡ïÈ
+7
+java:S2129¶" Remove this "String" constructor(¹³İ€
+i	java:S100Ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¨½îûÿÿÿÿ
+U
+java:S4719È"9Replace charset name argument with StandardCharsets.UTF_8(ÜÛ¼Ñıÿÿÿÿ
+?
+java:S1125Ğ"(Remove the unnecessary boolean literals.( Ğëš
+D
+java:S1125Ñ"(Remove the unnecessary boolean literals.(Şõ¦Ëıÿÿÿÿ
+<
+java:S2129Ü" Remove this "String" constructor(†­ã‚üÿÿÿÿ
+7
+java:S2129ë" Remove this "String" constructor(—Åç‰
+i	java:S100ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‹‰Ïúÿÿÿÿ
+P
+java:S4719ö"9Replace charset name argument with StandardCharsets.UTF_8(šÃÇ·
+<
+java:S2129ƒ" Remove this "String" constructor(ÈÉè›øÿÿÿÿ
+<
+java:S2129Œ" Remove this "String" constructor(±‹Ù–úÿÿÿÿ
+<
+java:S2129‘" Remove this "String" constructor(›Şñ¹ÿÿÿÿÿ
+d	java:S100–"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íâ­¤
+7
+java:S2129š" Remove this "String" constructor(ë‡€ï
+U
+java:S4719œ"9Replace charset name argument with StandardCharsets.UTF_8(ÆÑÊİıÿÿÿÿ
+?
+java:S1125¢"(Remove the unnecessary boolean literals.( Ğëš
+D
+java:S1125£"(Remove the unnecessary boolean literals.(Şõ¦Ëıÿÿÿÿ
+E
+java:S1481£")Remove this unused "cont" local variable.(Şõ¦Ëıÿÿÿÿ
+<
+java:S2129§" Remove this "String" constructor(†­ã‚üÿÿÿÿ
+7
+java:S2129Â" Remove this "String" constructor(¶ŒÌ¯
+F
+java:S2093±"*Change this "try" to a try-with-resources.(ç£êúÿÿÿÿ
+<
+java:S2129Ñ" Remove this "String" constructor(Òù“Õúÿÿÿÿ
+i	java:S100Ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç·ÎÒıÿÿÿÿ
+\
+java:S1192]"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(ÄŒ›ù
+Q
+java:S1141Ö"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+Q
+java:S1141±"5Extract this nested try block into a separate method.(ç£êúÿÿÿÿ
+k	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¸¨âüÿÿÿÿ
+k	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¸¨âüÿÿÿÿ
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰’™ï
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰’™ï
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰’™ï
+g	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁªÚ
+g	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÁªÚ
+l	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¨½îûÿÿÿÿ
+l	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¨½îûÿÿÿÿ
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‹‰Ïúÿÿÿÿ
+l	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‹‰Ïúÿÿÿÿ
+g	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íâ­¤
+g	java:S117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íâ­¤
+r
+java:S1104"WMake server_name a static final constant or non-public and provide accessors if needed.(¶­å™úÿÿÿÿ
+r
+java:S1104"WMake server_port a static final constant or non-public and provide accessors if needed.(£Ú€–øÿÿÿÿ
+m
+java:S1104"RMake socket a static final constant or non-public and provide accessors if needed.(È™…½úÿÿÿÿ
+h
+java:S1104"RMake secure a static final constant or non-public and provide accessors if needed.(·öÎÇ
+[
+java:S2095³"DUse try-with-resources or close this "Socket" in a "finally" clause.(’Ú®İ
+d
+java:S2095¶"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÏŸ‰â

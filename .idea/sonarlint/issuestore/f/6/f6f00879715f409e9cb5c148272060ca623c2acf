@@ -1,0 +1,21 @@
+
+m	java:S116"SRename this field "aim_port" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÚëàøÿÿÿÿ
+p	java:S116"VRename this field "aim_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âƒİ˜ûÿÿÿÿ
+t
+java:S2142E"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+]	java:S125@"<This block of commented-out lines of code should be removed.(¦™ßîûÿÿÿÿ8¡µúàï/
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(Õ„â¥şÿÿÿÿ8›ëúàï/
+]
+java:S1128";Remove this unused import 'io.netty.channel.ChannelFuture'.(¥¡ÔĞÿÿÿÿÿ8¢µúàï/
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€·üE
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€·üE
+m	java:S116"SRename this field "aim_port" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÚëàøÿÿÿÿ
+p	java:S116"VRename this field "aim_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âƒİ˜ûÿÿÿÿ
+t
+java:S2142E"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+V	java:S125@"<This block of commented-out lines of code should be removed.(¦™ßîûÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(Õ„â¥şÿÿÿÿ
+V
+java:S1128";Remove this unused import 'io.netty.channel.ChannelFuture'.(¥¡ÔĞÿÿÿÿÿ
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€·üE
+e	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€·üE

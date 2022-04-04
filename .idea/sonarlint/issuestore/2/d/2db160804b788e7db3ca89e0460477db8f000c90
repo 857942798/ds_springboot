@@ -1,0 +1,12 @@
+
+t
+java:S2142,"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(’¥Ò×øÿÿÿÿ
+e
+java:S1128"CRemove this unused import 'com.ds.netty.udp.NettyUDPServerHandler'.(­›Œüÿÿÿÿ8Õ•ºáï/
+T
+java:S1128"7Remove this unused import 'com.ds.netty.udp.UDPServer'.(Ç¾Å8Õ•ºáï/
+V
+java:S1128"9Remove this unused import 'io.netty.bootstrap.Bootstrap'.(¦ÄÏï8Ö•ºáï/
+h
+java:S1128"KRemove this unused import 'io.netty.channel.socket.nio.NioDatagramChannel'.(‚óš8Ö•ºáï/

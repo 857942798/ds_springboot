@@ -1,0 +1,16 @@
+
+T
+java:S1135"2Complete the task associated to this TODO comment.(ı˜ã„úÿÿÿÿ8Ñ…ÙÚï/
+X	java:S125"<This block of commented-out lines of code should be removed.(¯Š8Ò…ÙÚï/
+G
+java:S1197"*Move the array designators [] to the type.(º¤Ñµ8Ö…ÙÚï/
+X	java:S125 "<This block of commented-out lines of code should be removed.(Ãà«ÿ8Ù…ÙÚï/
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(äüßí8Ü…ÙÚï/
+]	java:S125)"<This block of commented-out lines of code should be removed.( ÆöÓÿÿÿÿÿ8Ü…ÙÚï/
+X	java:S125/"<This block of commented-out lines of code should be removed.(Ò»Ê³8İ…ÙÚï/
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(Ã¯‡ùÿÿÿÿ8İ…ÙÚï/
+W	java:S1252"<This block of commented-out lines of code should be removed.(À¶Î8Ş…ÙÚï/
+Y
+java:S4973%"<Strings and Boxed types should be compared using "equals()".(äÀÅş8à…ÙÚï/
+f
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(ê™¥—øÿÿÿÿ8¸ØÙÚï/

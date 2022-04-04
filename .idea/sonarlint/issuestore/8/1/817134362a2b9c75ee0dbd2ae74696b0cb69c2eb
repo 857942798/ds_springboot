@@ -1,0 +1,18 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªøÎÑøÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÿ‚¢ëúÿÿÿÿ
+X	java:S125!"<This block of commented-out lines of code should be removed.(‘Ê¾Ä8Ñƒöòó/
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ží¡Ò
+N	java:S106("9Replace this use of System.out or System.err by a logger.(¨…»Œ
+M	java:S106+"9Replace this use of System.out or System.err by a logger.(Çðõ"
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(üÊøƒ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ù€•
+M	java:S1063"9Replace this use of System.out or System.err by a logger.(÷Ð›o
+@
+java:S1128"$Remove this unused import 'java.io'.(¬›ãD8±·´ïó/
+S
+java:S1128"1Remove this unused import 'java.net.InetAddress'.(ë³ƒÒÿÿÿÿÿ8±·´ïó/
+I
+java:S1128",Remove this unused import 'java.net.Socket'.(­‡àú8±·´ïó/
+\
+java:S1128":Remove this unused import 'java.net.UnknownHostException'.(Ú·¬˜úÿÿÿÿ8±·´ïó/

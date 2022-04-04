@@ -1,0 +1,29 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨øð°
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨øð°
+W
+java:S1854'"<Remove this useless assignment to local variable "username".(éœë¾øÿÿÿÿ
+N
+java:S1854&"8Remove this useless assignment to local variable "resp".(ºÈÜé
+W
+java:S1854'"<Remove this useless assignment to local variable "username".(éœë¾øÿÿÿÿ
+N
+java:S1854&"8Remove this useless assignment to local variable "resp".(ºÈÜé
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(¡ÙœÇüÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(¡ÙœÇüÿÿÿÿ
+?
+java:S1481&")Remove this unused "resp" local variable.(ºÈÜé
+H
+java:S1481'"-Remove this unused "username" local variable.(éœë¾øÿÿÿÿ
+?
+java:S1481&")Remove this unused "resp" local variable.(ºÈÜé
+V	java:S125)"<This block of commented-out lines of code should be removed.(ÑàÏµüÿÿÿÿ
+H
+java:S1481'"-Remove this unused "username" local variable.(éœë¾øÿÿÿÿ
+V	java:S125)"<This block of commented-out lines of code should be removed.(ÑàÏµüÿÿÿÿ
+Q	java:S125+"<This block of commented-out lines of code should be removed.(¡Õ±š
+Q	java:S125+"<This block of commented-out lines of code should be removed.(¡Õ±š
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(Ã¤Œòþÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(Ã¤Œòþÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Äò¿ã
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Äò¿ã

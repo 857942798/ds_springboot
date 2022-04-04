@@ -1,0 +1,11 @@
+
+Q	java:S125
+"<This block of commented-out lines of code should be removed.(ğœÈÁ
+V
+java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ
+l
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ
+v
+java:S1128"[Remove this unused import 'org.springframework.scheduling.annotation.SchedulingConfigurer'.(ÓˆÚÖşÿÿÿÿ
+o
+java:S1128"YRemove this unused import 'org.springframework.scheduling.config.ScheduledTaskRegistrar'.(­Ù¤

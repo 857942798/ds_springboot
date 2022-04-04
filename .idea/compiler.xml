@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ds_springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="csmf-activiti" target="1.8" />
+      <module name="csmf-certificate" target="1.8" />
+      <module name="csmf-charts" target="1.8" />
+      <module name="csmf-common" target="1.8" />
+      <module name="csmf-core" target="1.8" />
+      <module name="csmf-core-wsclient" target="1.8" />
+      <module name="csmf-dataservice" target="1.8" />
+      <module name="csmf-ddi-dns" target="1.8" />
+      <module name="csmf-dhcp" target="1.8" />
+      <module name="csmf-dns-core" target="1.8" />
+      <module name="csmf-easyconfig" target="1.8" />
+      <module name="csmf-liquibase" target="1.8" />
+      <module name="csmf-master" target="1.8" />
+      <module name="csmf-persistance" target="1.8" />
+      <module name="csmf-persistance-v2" target="1.8" />
+      <module name="csmf-processunit" target="1.8" />
+      <module name="csmf-security" target="1.8" />
+      <module name="csmf-sso-extend" target="1.8" />
+      <module name="csmf-syslog-server" target="1.8" />
+      <module name="csmf-topo" target="1.8" />
+      <module name="csmf-web" target="1.8" />
+      <module name="csmf-web-v2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="csmf-activiti" options="-parameters" />
+      <module name="csmf-certificate" options="-parameters -verbose -bootclasspath /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar" />
+      <module name="csmf-charts" options="-parameters" />
+      <module name="csmf-common" options="-parameters" />
+      <module name="csmf-core" options="-parameters" />
+      <module name="csmf-core-wsclient" options="-parameters" />
+      <module name="csmf-dataservice" options="-parameters" />
+      <module name="csmf-ddi-dns" options="-parameters" />
+      <module name="csmf-dhcp" options="-parameters" />
+      <module name="csmf-dns-core" options="-parameters" />
+      <module name="csmf-easyconfig" options="-parameters" />
+      <module name="csmf-liquibase" options="-parameters" />
+      <module name="csmf-persistance" options="-parameters" />
+      <module name="csmf-persistance-v2" options="-parameters" />
+      <module name="csmf-processunit" options="-parameters" />
+      <module name="csmf-security" options="-parameters" />
+      <module name="csmf-sso-extend" options="-parameters" />
+      <module name="csmf-syslog-server" options="-parameters" />
+      <module name="csmf-topo" options="-parameters" />
+      <module name="csmf-web" options="-parameters" />
+      <module name="csmf-web-v2" options="-parameters" />
+      <module name="ds_springboot" options="-parameters" />
+    </option>
+  </component>
+</project>

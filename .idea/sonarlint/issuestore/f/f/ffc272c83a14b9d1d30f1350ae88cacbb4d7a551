@@ -1,0 +1,16 @@
+
+C
+java:S3740"/Provide the parametrized type for this generic.(ˆƒ«ê
+K
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ
+a	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›®Å·
+:
+java:S1481"&Remove this unused "a" local variable.(ˆƒ«ê
+K	java:S106"9Replace this use of System.out or System.err by a logger.(Ä Y
+C
+java:S3740"/Provide the parametrized type for this generic.(ˆƒ«ê
+I
+java:S1854"5Remove this useless assignment to local variable "a".(ˆƒ«ê
+K	java:S106"9Replace this use of System.out or System.err by a logger.(Ä Y
+T
+java:S1128"ARemove this unused import 'org.springframework.util.StringUtils'.(Ğôÿ

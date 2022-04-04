@@ -1,0 +1,10 @@
+
+ž
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(€¶¶²8ñØÙ·Ý/
+p
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8÷ØÙ·Ý/
+t
+java:S1128"RRemove this unused import 'org.springframework.web.bind.annotation.RequestMethod'.(Ê™Ðÿûÿÿÿÿ8÷ØÙ·Ý/
+u
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RestController'.(±íþ¡þÿÿÿÿ8÷ØÙ·Ý/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ü¢Àà

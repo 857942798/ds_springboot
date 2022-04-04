@@ -1,0 +1,27 @@
+
+^
+java:S1854"ARemove this useless assignment to local variable "hasPermission".(°“‘ä8Ì°òĞ/
+W
+java:S1854"ARemove this useless assignment to local variable "hasPermission".(°“‘ä
+Q
+java:S1854"<Remove this useless assignment to local variable "userName".(§Û«H
+X
+java:S1854"<Remove this useless assignment to local variable "userName".(§Û«H8©šÏãÚ.
+W
+java:S1854#"ARemove this useless assignment to local variable "hasPermission".(°“‘ä
+^
+java:S1854#"ARemove this useless assignment to local variable "hasPermission".(°“‘ä8Ì°òĞ/
+H
+java:S1481"2Remove this unused "hasPermission" local variable.(áÕ¤«
+O
+java:S1481"2Remove this unused "hasPermission" local variable.(áÕ¤«8Í°òĞ/
+B
+java:S1481"-Remove this unused "userName" local variable.(§Û«H
+B
+java:S1481"-Remove this unused "userName" local variable.(§Û«H
+`
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒâúî
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒâúî

@@ -1,0 +1,15 @@
+
+g
+java:S1128"LRemove this unused import 'com.ds.designPattern.abstractFactory.color.Blue'.(¦ËÔùÿÿÿÿ
+h
+java:S1128"MRemove this unused import 'com.ds.designPattern.abstractFactory.color.Green'.(´³êÄıÿÿÿÿ
+f
+java:S1128"KRemove this unused import 'com.ds.designPattern.abstractFactory.color.Red'.(ÄõĞÜüÿÿÿÿ
+i
+java:S1128"NRemove this unused import 'com.ds.designPattern.abstractFactory.shape.Circle'.(×óÖ‘øÿÿÿÿ
+f
+java:S1128"QRemove this unused import 'com.ds.designPattern.abstractFactory.shape.Rectangle'.(ªÁŞA
+d
+java:S1128
+"NRemove this unused import 'com.ds.designPattern.abstractFactory.shape.Square'.(–ÜÃÆ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó©øñ

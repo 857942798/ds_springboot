@@ -1,0 +1,30 @@
+
+8
+java:S2326"T is not used in the class.(ğê¿¼8†…æãù/
+k
+java:S1128"IRemove this unused import 'com.ds.netty.dubbo.client.NettyClientHandler'.(Æ‰Ì³şÿÿÿÿ8ßüçãù/
+V
+java:S1128"9Remove this unused import 'io.netty.bootstrap.Bootstrap'.(¦ÄÏï8ßüçãù/
+b
+java:S1128"@Remove this unused import 'io.netty.channel.ChannelInitializer'.(ğ®æÎøÿÿÿÿ8ßüçãù/
+]
+java:S1128";Remove this unused import 'io.netty.channel.ChannelOption'.(º¶Ğ©úÿÿÿÿ8ßüçãù/
+_
+java:S1128"=Remove this unused import 'io.netty.channel.ChannelPipeline'.(ŠÏîûÿÿÿÿ8ßüçãù/
+`
+java:S1128"CRemove this unused import 'io.netty.channel.nio.NioEventLoopGroup'.(à•…½8àüçãù/
+d
+java:S1128	"BRemove this unused import 'io.netty.channel.socket.SocketChannel'.(ĞªÇÁúÿÿÿÿ8àüçãù/
+k
+java:S1128
+"IRemove this unused import 'io.netty.channel.socket.nio.NioSocketChannel'.(‡í¯¤şÿÿÿÿ8àüçãù/
+j
+java:S1128"HRemove this unused import 'io.netty.handler.codec.string.StringDecoder'.(ºôÅ«úÿÿÿÿ8àüçãù/
+e
+java:S1128"HRemove this unused import 'io.netty.handler.codec.string.StringEncoder'.(ÃªÛ…8àüçãù/
+c
+java:S1128"ARemove this unused import 'java.util.concurrent.ExecutorService'.(æ÷–£ùÿÿÿÿ8áüçãù/
+]
+java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ8áüçãù/
+€
+java:S1488*"cImmediately return this expression instead of assigning it to the temporary variable "returnValue".(­˜£8ûÖèãù/

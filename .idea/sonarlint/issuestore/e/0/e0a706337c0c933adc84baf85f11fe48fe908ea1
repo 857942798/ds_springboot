@@ -1,0 +1,9 @@
+
+p
+java:S1128"NRemove this unused import 'com.ds.designPattern.abstractFactory.shape.Circle'.(×óÖ‘øÿÿÿÿ8Àƒù/
+m
+java:S1128"QRemove this unused import 'com.ds.designPattern.abstractFactory.shape.Rectangle'.(ªÁŞA8Àƒù/
+k
+java:S1128
+"NRemove this unused import 'com.ds.designPattern.abstractFactory.shape.Square'.(–ÜÃÆ8Àƒù/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó©øñ

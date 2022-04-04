@@ -1,0 +1,37 @@
+
+P
+java:S1854"5Remove this useless assignment to local variable "n".(˜õª»ÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "n" local variable.(˜õª»ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ž³ð¸ûÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Á¡óœ
+C
+java:S2175&"(A "List<String>" cannot contain a "int".(×¨ÍÜýÿÿÿÿ
+M
+java:S1128	"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉÝÖ½
+P
+java:S1854"5Remove this useless assignment to local variable "n".(˜õª»ÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "n" local variable.(˜õª»ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ž³ð¸ûÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Á¡óœ
+C
+java:S2175&"(A "List<String>" cannot contain a "int".(×¨ÍÜýÿÿÿÿ
+M
+java:S1128	"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉÝÖ½
+P
+java:S1854"5Remove this useless assignment to local variable "n".(˜õª»ÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "n" local variable.(˜õª»ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ž³ð¸ûÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Á¡óœ
+C
+java:S2175&"(A "List<String>" cannot contain a "int".(×¨ÍÜýÿÿÿÿ
+M
+java:S1128	"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉÝÖ½
