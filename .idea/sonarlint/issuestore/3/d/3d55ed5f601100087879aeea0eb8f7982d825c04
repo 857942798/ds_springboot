@@ -1,6 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ù»ÇÛüÿÿÿÿ
-k
-java:S1128"PRemove this unused import 'org.springframework.scheduling.annotation.Scheduled'.(‚¡®Üûÿÿÿÿ
-=
-java:S1144"(Remove this unused private "sum" method.(ôú‰|

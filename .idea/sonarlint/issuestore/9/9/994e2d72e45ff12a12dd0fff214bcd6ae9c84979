@@ -1,9 +1,0 @@
-
-†
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(†åœá
-S	java:S106"9Replace this use of System.out or System.err by a logger.(É¾²”ûÿÿÿÿ
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†åœá
-C
-java:S1604"(Make this anonymous inner class a lambda(„Àçïúÿÿÿÿ
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(„Àçïúÿÿÿÿ

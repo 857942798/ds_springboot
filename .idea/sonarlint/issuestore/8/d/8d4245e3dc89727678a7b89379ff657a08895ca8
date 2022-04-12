@@ -1,4 +1,0 @@
-
-q	java:S116"URename this field "table_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÔý¬8ñý’¯ò/
-s	java:S116"RRename this field "inc_seq" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úŠõ°ùÿÿÿÿ8òý’¯ò/
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ô§âÞ8øý’¯ò/

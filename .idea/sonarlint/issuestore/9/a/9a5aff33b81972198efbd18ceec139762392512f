@@ -1,37 +1,0 @@
-
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹¸§õýÿÿÿÿ8èÜˆ£À.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÄÌÝøúÿÿÿÿ8èÜˆ£À.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¡êÇ 8èÜˆ£À.
-m
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(Â¥äö8èÜˆ£À.
-r
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(¼ÎƒÞøÿÿÿÿ8èÜˆ£À.
-m
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ïÕ‡ú8èÜˆ£À.
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(á„ÍÆùÿÿÿÿ8èÜˆ£À.
-|
-java:S1989&"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(ï¶ßû8èÜˆ£À.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¹¸§õýÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÄÌÝøúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¡êÇ 
-f
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(Â¥äö
-k
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(¼ÎƒÞøÿÿÿÿ
-f
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ïÕ‡ú
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(á„ÍÆùÿÿÿÿ
-u
-java:S1989&"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(ï¶ßû
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¹¸§õýÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÄÌÝøúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¡êÇ 
-f
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(Â¥äö
-k
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(¼ÎƒÞøÿÿÿÿ
-f
-java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(ïÕ‡ú
-S	java:S106%"9Replace this use of System.out or System.err by a logger.(á„ÍÆùÿÿÿÿ
-u
-java:S1989&"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(ï¶ßû

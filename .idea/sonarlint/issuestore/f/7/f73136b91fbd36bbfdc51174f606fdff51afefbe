@@ -1,13 +1,0 @@
-
-M
-java:S1135"2Complete the task associated to this TODO comment.(ý˜ã„úÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(ž¯Š
-V	java:S125"<This block of commented-out lines of code should be removed.(ƒ’Â›ùÿÿÿÿ
-Q	java:S125#"<This block of commented-out lines of code should be removed.(Ãà«ÿ
-N	java:S106*"9Replace this use of System.out or System.err by a logger.(ºÅ—Ð
-S	java:S106+"9Replace this use of System.out or System.err by a logger.(„‡Æ×þÿÿÿÿ
-Q	java:S125/"<This block of commented-out lines of code should be removed.(Ò»Ê³
-R
-java:S4973("<Strings and Boxed types should be compared using "equals()".(äÀÅþ
-e
-java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(íîÁ¿ùÿÿÿÿ

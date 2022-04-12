@@ -1,16 +1,0 @@
-
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ı°Ú²8»æÄâø/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(³õ¥Ğ8âÑãø/
-O
-java:S1128"2Remove this unused import 'javax.xml.ws.Endpoint'.(¤šÔş8ãÑãø/
-h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µ‰m8»æÄâø/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ı°Ú²8»æÄâø/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(³õ¥Ğ8âÑãø/
-O
-java:S1128"2Remove this unused import 'javax.xml.ws.Endpoint'.(¤šÔş8ãÑãø/
-h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µ‰m8»æÄâø/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ı°Ú²8»æÄâø/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(³õ¥Ğ8âÑãø/
-O
-java:S1128"2Remove this unused import 'javax.xml.ws.Endpoint'.(¤šÔş8ãÑãø/
-h	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(µ‰m8»æÄâø/
