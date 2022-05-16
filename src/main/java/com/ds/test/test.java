@@ -10,12 +10,8 @@ package com.ds.test;
  * 输出：1->1->2->3->4->4
  */
 public class test {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-            return l1;
+
+    public static void main(String[] args){
+        System.out.println(-128&1);
     }
-    public class ListNode {
-      int val;
-      ListNode next;
-      ListNode(int x) { val = x; }
-  }
 }

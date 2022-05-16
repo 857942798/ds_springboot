@@ -2,10 +2,6 @@ package com.ds;
 /**
  * @author dongsheng
  */
-import java.util.Arrays;
-import javax.jms.ConnectionFactory;
-import javax.jms.Topic;
-import javax.jms.Queue;
 
 import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.activemq.command.ActiveMQTopic;
@@ -17,16 +13,15 @@ import org.springframework.boot.web.servlet.MultipartConfigFactory;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ImportResource;
-import org.springframework.jms.annotation.EnableJms;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.config.JmsListenerContainerFactory;
-import org.springframework.scheduling.annotation.EnableAsync;
-import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.util.unit.DataSize;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+import javax.jms.ConnectionFactory;
+import javax.jms.Queue;
+import javax.jms.Topic;
 import javax.servlet.MultipartConfigElement;
+import java.util.Arrays;
 
 @SpringBootApplication
 @ServletComponentScan//扫描到自定义的filter和servlet
