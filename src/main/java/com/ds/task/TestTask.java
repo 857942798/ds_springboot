@@ -1,9 +1,14 @@
 package com.ds.task;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.SneakyThrows;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 /**
  * @author dongsheng
@@ -17,4 +22,5 @@ public class TestTask {
     private void sum(){
         System.out.println("当前时间："+new Date());
     }
+
 }
