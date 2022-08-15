@@ -28,9 +28,7 @@ public interface UserMapper {
 	 @Options(useGeneratedKeys=true, keyProperty="id", keyColumn="id")   //keyProperty java对象的属性；keyColumn表示数据库的字段
 	 int insert(User user);
 	 
-	 
-	 
-	
+
 
 	 /**
 	  * 功能描述：查找全部

@@ -1,8 +1,6 @@
 package com.ds.i18n.timeZone;
 
-import cn.hutool.core.date.DateUtil;
 import com.alibaba.fastjson.JSONObject;
-import com.ds.domain.JsonData;
 import com.ds.i18n.bean.TimeZoneReq;
 import com.ds.i18n.bean.TimeZoneResp;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -32,14 +30,13 @@ public class TimeTestController {
     ObjectMapper objectMapper;
 
     @GetMapping("gettest")
-    public JsonData dateTest(HttpServletRequest request, @RequestParam LocalDateTime date){
-        return JsonData.buildSuccess(date);
+    public String dateTest(HttpServletRequest request, @RequestParam LocalDateTime date){
+        return date.toString();
     }
 
     @PostMapping("posttest")
     public TimeZoneResp dateTest2(HttpServletRequest request, @RequestBody TimeZoneReq timeZoneBean){
-        Date date2 = new Date();
-        log.error(DateUtil.formatDateTime(date2));
+        System.out.println(timeZoneBean.toString());
         LocalDateTime localDateTime = timeZoneBean.getDatetime();
         Date date = timeZoneBean.getDate();
         TimeZoneResp tImeZoneResp=new TimeZoneResp();
@@ -54,6 +51,13 @@ public class TimeTestController {
         JSONObject ob=new JSONObject();
         ob.put("date",new Date());
         return ob;
+    }
+
+    @GetMapping("fastjsonStr_test")
+    public String fastjsonStrTest(){
+        JSONObject ob=new JSONObject();
+        ob.put("date",new Date());
+        return ob.toJSONString();
     }
 
     @SneakyThrows
@@ -76,5 +80,6 @@ public class TimeTestController {
     public Map mapTest(@RequestBody Map<String,Date> map){
         return map;
     }
+
 
 }

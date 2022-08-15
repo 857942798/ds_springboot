@@ -1,4 +1,4 @@
-package com.ds.utils;
+package com.ds.util;
 
 import java.io.IOException;
 

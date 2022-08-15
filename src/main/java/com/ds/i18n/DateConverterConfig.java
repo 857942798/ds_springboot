@@ -1,30 +1,30 @@
 package com.ds.i18n;
 
-import org.apache.commons.lang3.StringUtils;
+import cn.hutool.core.date.DateException;
+import com.ds.i18n.util.I18nUtils;
+import com.ds.util.DateUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.convert.converter.Converter;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
 
+/**
+ * <p>
+ *  支持场景：
+ *      GET请求及POST表单请求(RequestParam和PathVariable参数)中日期字符串在转为Date、LocalDateTime类型时可以自动转为应用服务当前时区的时间
+ * </p>
+ *
+ * @author dongsheng
+ * @date 2022/8/9
+ */
 @Configuration
 public class DateConverterConfig {
 
-    private static final String YYYY_MM_DD = "yyyy-MM-dd";
-    private static final String YYYY_MM_DD_HH_MM_SS = "yyyy-MM-dd HH:mm:ss";
-
     /**
      * 自定义类型转换,HTTP请求日期字符串转换日期类型,
-     * 相当于以前设置进 ConversionServiceFactoryBean
-     *
-     * @return Converter<java.lang.String,java.util.Date>
-     * @author 成大事
-     * @since 2022/7/23 14:16
      */
     @Bean
     public Converter<String, LocalDateTime> localDateTimeConverter() {
@@ -32,41 +32,28 @@ public class DateConverterConfig {
             @Override
             public LocalDateTime convert(String source) {
                 try {
-                    return parse(source);
-                } catch (ParseException e) {
+                    LocalDateTime localDateTime = DateUtils.parseToLocalDateTime(source);
+                    return localDateTime.atZone(ZoneId.of(I18nUtils.getTimeZone())).withZoneSameInstant(ZoneId.systemDefault()).toLocalDateTime();
+                } catch (DateException e) {
                     e.printStackTrace();
                 }
-                throw new RuntimeException("日期解析错误");
+                return null;
             }
         };
     }
 
-    /**
-     * 根据字符串进行解析,将Date转LocalDateTime
-     *
-     * @param source 日期字符串
-     * @return java.time.LocalDateTime
-     * @author 成大事
-     * @since 2022/7/23 14:16
-     */
-    public LocalDateTime parse(String source) throws ParseException {
-        if (StringUtils.isBlank(source)) {
-            return null;
-        }
-        DateFormat format;
-        source = source.trim();
-        //判断是否yyyy-MM-dd格式
-        if(source.matches("^\\d{4}-\\d{1,2}-\\d{1,2}$")){
-            format = new SimpleDateFormat(YYYY_MM_DD);
-            Date date = format.parse(source);
-            return LocalDateTime.ofInstant(date.toInstant(), ZoneId.systemDefault());
-            //判断是否yyyy-MM-dd HH:mm:ss格式
-        }else if(source.matches("^\\d{4}-\\d{1,2}-\\d{1,2} {1}\\d{1,2}:\\d{1,2}:\\d{1,2}$")){
-            format = new SimpleDateFormat(YYYY_MM_DD_HH_MM_SS);
-            Date date = format.parse(source);
-            return LocalDateTime.ofInstant(date.toInstant(), ZoneId.systemDefault());
-        }else {
-            throw new IllegalArgumentException("Invalid false value " + source);
-        }
+    @Bean
+    public Converter<String, Date> dateConverter() {
+        return new Converter<String, Date>() {
+            @Override
+            public Date convert(String source) {
+                try {
+                    return DateUtils.parseToDate(source,I18nUtils.getTimeZone());
+                } catch (DateException e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+        };
     }
 }

@@ -22,4 +22,5 @@ public class TimeZoneReq {
 
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm",timezone = "GMT+12")
     private Date date2;
+
 }

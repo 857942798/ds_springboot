@@ -1,14 +1,10 @@
-package com.ds.utils;
+package com.ds.util;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import io.lettuce.core.dynamic.annotation.CommandNaming;
 import org.springframework.stereotype.Component;
-import org.yaml.snakeyaml.reader.StreamReader;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.StandardCopyOption;
 
 /**
  * @author: dongsheng

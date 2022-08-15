@@ -2,7 +2,6 @@ package com.ds.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -27,6 +26,14 @@ public class MyMvcConfigurer implements WebMvcConfigurer {
         };
     }
 
+//    @Resource
+//    private ObjectMapper objectMapper;
+
+//    @Override
+//    public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
+//        converters.removeIf(o -> o instanceof MappingJackson2HttpMessageConverter);
+//        converters.add(new MappingJackson2HttpMessageConverter(objectMapper));
+//    }
 
 
 }

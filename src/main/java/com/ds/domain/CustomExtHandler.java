@@ -1,24 +1,21 @@
 package com.ds.domain;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
-
-
-@RestControllerAdvice
+//@RestControllerAdvice
 public class CustomExtHandler {
 
     private static final Logger LOG = LoggerFactory.getLogger(CustomExtHandler.class);
 
 	
 	//捕获全局异常,处理所有不可知的异常
-	@ExceptionHandler(value=Exception.class)
+//	@ExceptionHandler(value=Exception.class)
 	//@ResponseBody
     Object handleException(Exception e,HttpServletRequest request){
 		LOG.error("url {}, msg {}",request.getRequestURL(), e.getMessage()); 
@@ -34,7 +31,7 @@ public class CustomExtHandler {
 	 * 功能描述：处理自定义异常
 	 * @return
 	 */
-	@ExceptionHandler(value=MyException.class)
+//	@ExceptionHandler(value=MyException.class)
 	Object handleMyException(MyException e,HttpServletRequest request){
 		//进行页面跳转
 //		ModelAndView modelAndView = new ModelAndView();

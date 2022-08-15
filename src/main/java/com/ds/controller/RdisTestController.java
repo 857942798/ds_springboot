@@ -5,8 +5,8 @@ import java.util.Date;
 
 import com.ds.domain.JsonData;
 import com.ds.domain.User;
-import com.ds.utils.JsonUtils;
-import com.ds.utils.RedisClient;
+import com.ds.util.JsonUtils;
+import com.ds.util.RedisClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;

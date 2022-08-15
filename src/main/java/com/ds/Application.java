@@ -17,11 +17,13 @@ import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.config.JmsListenerContainerFactory;
 import org.springframework.util.unit.DataSize;
 
+import javax.annotation.PostConstruct;
 import javax.jms.ConnectionFactory;
 import javax.jms.Queue;
 import javax.jms.Topic;
 import javax.servlet.MultipartConfigElement;
 import java.util.Arrays;
+import java.util.TimeZone;
 
 @SpringBootApplication
 @ServletComponentScan//扫描到自定义的filter和servlet
@@ -33,6 +35,13 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+    }
+
+
+    @PostConstruct
+    void started() {
+        //时区设置：默认中国上海
+        TimeZone.setDefault(TimeZone.getTimeZone("Asia/Shanghai"));
     }
 
     @Bean

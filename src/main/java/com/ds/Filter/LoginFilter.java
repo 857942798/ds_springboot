@@ -1,19 +1,13 @@
 package com.ds.Filter;
 
-import java.io.IOException;
-
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 
-@WebFilter(urlPatterns = "/api/*", filterName = "loginFilter")
+@WebFilter(urlPatterns = "/*", filterName = "loginFilter")
 public class LoginFilter  implements Filter{
 	
 	
@@ -37,7 +31,8 @@ public class LoginFilter  implements Filter{
     	  HttpServletRequest req = (HttpServletRequest) servletRequest;
           HttpServletResponse resp = (HttpServletResponse) servletResponse;
           String username = req.getParameter("username");
-          
+          String timeZone = req.getHeader("TimeZone");
+          req.getSession().setAttribute("timeZone",timeZone);
 //          if ("ds".equals(username)) {
         	  filterChain.doFilter(servletRequest,servletResponse);
 //          } else {
