@@ -1,5 +1,9 @@
 package com.ds.test;
 
+import java.util.Iterator;
+import java.util.Map;
+import java.util.TreeMap;
+
 /**
  * @author: dongsheng
  * @CreateTime: 2022/3/17
@@ -28,35 +32,46 @@ public class test5 {
     // 今天显性=6天前被隐形感染的人数 dp[n-6] + 7到13天之间的显性感染的人数
     // 隐性的感染人数=今天显性*3
     // 治愈的人数=13天前被隐形感染的人会治愈
-
-
-
-
     public static void main(String[] args){
-//        System.out.println("第7天："+getAns(7));
+//        System.out.println("第1天："+getAns(1));
 //        System.out.println("第8天："+getAns(8));
-//        System.out.println("第10天："+getAns(10));
-//        System.out.println("第12天："+getAns(12));
-        System.out.println("第13天："+getAns(13));
-//        System.out.println("第14天："+getAns(14));
-//        System.out.println("第15天："+getAns(15));
+//        System.out.println("第13天："+getAns(13));
+//        System.out.println("第16天："+getAns(16));
+//        System.out.println("第40天："+getAns(40));
+//        System.out.println("第50天："+getAns(50));
+        long s = System.currentTimeMillis();
+        System.out.println("第60天："+getAns(60));
+        long e = System.currentTimeMillis();
+        System.out.println(e-s);
     }
 
+    // 队列
     public static int getAns(int n){
-        int[] dp = new int[n+1];
-        if(n<=6){
-            return 1;
-        }
-        for(int i=0;i<=6;i++){
-            dp[i]=1;
-        }
-        for(int k=7;k<=n;k++){
-            if(k-13<=0){
-                dp[k]=dp[k-1]+3*dp[k-6];
-            }else{
-                dp[k]=dp[k-1]+3*dp[k-6]-dp[k-13];
+        Map<Integer, Integer> map = new TreeMap<>();
+        map.put(0,1);
+        for(int i=0;i<n;i++){
+            Map<Integer, Integer> tmp= new TreeMap<>();
+            Iterator<Map.Entry<Integer, Integer>> iterator = map.entrySet().iterator();
+            while (iterator.hasNext()) {
+                Map.Entry<Integer, Integer> entry = iterator.next();
+                Integer date = entry.getKey();
+                date++;
+                if(date<=13){
+                    tmp.put(date,entry.getValue());
+                }
+                if(date>=7&&date<=13){
+                    tmp.put(1,entry.getValue()*3+(tmp.get(1)==null?0:tmp.get(1)));
+                }
+                iterator.remove();
             }
+            // 合并两个map
+            map.putAll(tmp);
         }
-        return dp[n];
+        int ans=0;
+        for (Map.Entry<Integer, Integer> entry :map.entrySet()){
+            ans=ans+entry.getValue();
+        }
+        return ans;
     }
+
 }
