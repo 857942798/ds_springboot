@@ -1,0 +1,11 @@
+{
+  "properties": [
+    {
+      "name": "test.list",
+      "type": "java.util.List<java.lang.String>",
+      "description": "集合",
+      "sourceType": "com.ds.domain.ServerSettings",
+      "defaultValue": ["1","2","3"]
+    }
+  ]
+}
